@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.longnight.visible7.R;
+//lucky
 
 public class aSchoolForTeachers extends AppCompatActivity {
 
