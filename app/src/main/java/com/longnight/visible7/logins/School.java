@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import com.longnight.visible7.R;
 
-public class Parent extends AppCompatActivity {
+public class School extends AppCompatActivity {
 
     private EditText editUsername, editPassword;
     private Button buttonSend;
@@ -17,7 +16,7 @@ public class Parent extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parent);
+        setContentView(R.layout.activity_school);
 
         editUsername = (EditText)findViewById(R.id.editUsername);
         editPassword = (EditText)findViewById(R.id.editPassword);
